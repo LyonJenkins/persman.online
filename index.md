@@ -6,13 +6,17 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 # PERSMAN
 
-**PERSMAN**, or personnel management, is a web application designed to help you, a community leader, to organize your members and gaming sessions.
+**PERSMAN**, or personnel management, is a web application designed to help you, a community leader, to organize your members and gaming sessions. PERSMAN is built on the MEAN stack, meaning MongoDB, Angular, Express and NodeJS. 
 
-## Header 2
+# Features
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+* Secure user registration and authentication
+* A mobile-friendly web application
+* A calendar where administrators can post events and users and register.
+* An application system, where website administrators can add their own questions and order them how they please.
+* A unit organization tool, where website administrators can add units to that page and order them how they please.
+* A user requests section, where users can request a leave of absence or a discharge from the unit.
+* Certification, award, and service record fields for users
 
 ### Header 3
 
