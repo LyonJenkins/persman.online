@@ -25,7 +25,7 @@ There are two components to PERSMAN. Both are required to run the application. Y
 2. Register an account at Sendgrid.com (free) and create an API Key, and verify a Single Sender Verification email address, assuming you have your own domain name. Do not use a Gmail address.
 3. Add your Sendgrid API Key to the "apiKey" field in your _config.json_ file. Ensure there is no newline (\n) character at the end of the string, such as "SG.sendgridapikey __\n__ "
 4. Add your verified email address to the "sendAddress"" field.
-5. Add your database login URL to the "dbURL" field.
+5. Add your database login URL to the "dbURL" field./
 6. Add a custom string to the "secret" field.
 7. Add your unit or website or whatever name to "websiteName".
 8. Run the application.
@@ -34,22 +34,3 @@ There are two components to PERSMAN. Both are required to run the application. Y
 1. In the assets/config.json file, change "API_URL" to your Express API application URL.
 2. Add your unit or website or whatever name to "websiteName".
 3. Run the application.
-
-
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
