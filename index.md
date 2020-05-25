@@ -18,7 +18,7 @@ layout: default
 
 # Setup
 
-There are two components to PERSMAN. Both are required to run the application. You will need to take the following steps to have a running application. You will need to find a hosting service for both the Angular Application, the Express API, and for the MongoDB server.
+There are two components to PERSMAN. Both are required to run the application. You will need to take the following steps to have a running application. You will need to find a hosting service for both the Angular Application, the Express API, and for the MongoDB server. This is not an extensive tutorial, and assumes you have basic knowledge of web hosting and you know the power of Google.
 
 ### Express Setup
 1. In the Express API, rename _example-config.json_ to _config.json_.
