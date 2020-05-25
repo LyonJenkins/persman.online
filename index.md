@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 # PERSMAN
 
 **PERSMAN**, or personnel management, is a web application designed to help you, a community leader, to organize your members and gaming sessions. PERSMAN is built on the MEAN stack, meaning MongoDB, Angular, Express and NodeJS. 
@@ -18,77 +16,24 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 * A user requests section, where users can request a leave of absence or a discharge from the unit.
 * Certification, award, and service record fields for users
 
-### Header 3
+# Setup
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+There are two components to PERSMAN. Both are required to run the application. You will need to take the following steps to have a running application. You will need to find a hosting service for both the Angular Application, the Express API, and for the MongoDB server.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Express Setup
+1. In the Express API, rename _example-config.json_ to _config.json_.
+2. Register an account at Sendgrid.com (free) and create an API Key, and verify a Single Sender Verification email address, assuming you have your own domain name. Do not use a Gmail address.
+3. Add your Sendgrid API Key to the "apiKey" field in your _config.json_ file. Ensure there is no newline (\n) character at the end of the string, such as "SG.sendgridapikey __\n__ "
+4. Add your verified email address to the "sendAddress"" field.
+5. Add your database login URL to the "dbURL" field.
+6. Add a custom string to the "secret" field.
+7. Add your unit or website or whatever name to "websiteName".
 
-#### Header 4
+### Angular Setup
+1. You will need to install the Angular CLI in order to build the Angular application. Currently I cannot distribute the built application, look here if you want to help - https://github.com/LyonJenkins/persmanv3/issues/2/.
+2. 
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
@@ -98,19 +43,6 @@ end
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
