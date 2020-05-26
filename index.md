@@ -46,7 +46,6 @@ PERSMAN will receive regular updates, both on the API and Angular Application. I
 * Image support for events
 * Beautified UI (make it less boring)
 * Theming System
-* 
 
 # Support
 
