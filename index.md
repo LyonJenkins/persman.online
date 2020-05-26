@@ -55,3 +55,7 @@ PERSMAN will receive regular updates, both on the API and Angular Application. I
 # Support
 
 I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. However, if you run into issues, bugs, or have a suggestion, while running the actual application, contact me on my [Discord](discord.persman.online).
+
+
+### Known Bugs
+* Can no longer reorder items are reordering many times in Personnel Files or Application Form
