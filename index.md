@@ -14,8 +14,8 @@ layout: default
 * An application system, where website administrators can add their own questions and order them how they please.
 * A unit organization tool, where website administrators can add units to that page and order them how they please.
 * A user requests section, where users can request a leave of absence or a discharge from the unit.
-* Certification, award, and service record fields for users
-* Dates localized to the user's computer timezone
+* Certification, award, and service record fields for users.
+* Dates localized to the user's computer timezone.
 
 # Setup
 
