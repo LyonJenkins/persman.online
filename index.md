@@ -36,7 +36,7 @@ There are two components to PERSMAN. Both are required to run the application. Y
 1. In the _assets/config.json_ file, change "API_URL" to your Express API application URL.
 2. Add your unit or website or whatever name to "websiteName".
 3. Set your desired units in "units".
-4. Set your desired home page text at "homeText".
+4. Set your desired home page text in "homeText".
 5. Run the application.
 
 # Important Notes
