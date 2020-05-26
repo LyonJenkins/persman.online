@@ -10,7 +10,7 @@ layout: default
 
 * Secure user registration and authentication
 * A mobile-friendly web application
-* A calendar where administrators can post events and users and register.
+* A calendar where administrators can post events and users can register.
 * An application system, where website administrators can add their own questions and order them how they please.
 * A unit organization tool, where website administrators can add units to that page and order them how they please.
 * A user requests section, where users can request a leave of absence or a discharge from the unit.
