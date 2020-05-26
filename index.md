@@ -27,7 +27,7 @@ There are two components to PERSMAN. Both are required to run the application. Y
 3. Register an account at Sendgrid.com (free) and create an API Key, and verify a Single Sender Verification email address, assuming you have your own domain name. Do not use a Gmail address.
 4. Add your Sendgrid API Key to the "apiKey" field in your _config.json_ file. Ensure there is no newline (\n) character at the end of the string, such as "SG.sendgridapikey __\n__ "
 5. Add your verified email address to the "sendAddress"" field.
-6. Add your database login URL to the "dbURL" field./
+6. Add your MongoDB URI to the "dbURL" field.
 7. Add a custom string to the "secret" field.
 8. Add your unit or website or whatever name to "websiteName".
 9. Add your default administrator email in the "adminAccountEmail" field. When you register with this email, the role of that user will be set to Admin.
