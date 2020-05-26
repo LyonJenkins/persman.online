@@ -35,8 +35,9 @@ There are two components to PERSMAN. Both are required to run the application. Y
 ### Angular Setup
 1. In the _assets/config.json_ file, change "API_URL" to your Express API application URL.
 2. Add your unit or website or whatever name to "websiteName".
-3. Set your desired units in the "units" section for in the _assets/config.json_ file.
-4. Run the application.
+3. Set your desired units in "units".
+4. Set your desired home page text at "homeText".
+5. Run the application.
 
 # Important Notes
 Do not, I repeat **_DO NOT_**, remove any 'none' values in any of the config files. Do not otherwise you will break some systems of the website.
