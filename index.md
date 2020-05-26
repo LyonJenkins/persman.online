@@ -54,4 +54,4 @@ PERSMAN will receive regular updates, both on the API and Angular Application. I
 
 # Support
 
-I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. If you want a suggestion on services to deploy your app, I recommend Amazon Lightsail. However, if you encounter real errors of my own fault, feel free to notify me on my [Discord](discord.persman.online).
+I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. However, if you run into issues, bugs, or have a suggestion, while running the actual application, contact me on my [Discord](discord.persman.online).
