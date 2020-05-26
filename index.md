@@ -29,7 +29,7 @@ There are two components to PERSMAN. Both are required to run the application. Y
 5. Add your database login URL to the "dbURL" field./
 6. Add a custom string to the "secret" field.
 7. Add your unit or website or whatever name to "websiteName".
-8. Add your default administrator email in the "adminAccountEmail" field.
+8. Add your default administrator email in the "adminAccountEmail" field. When you register with this email, the role of that user will be set to Admin.
 9. Run the application.
 
 ### Angular Setup
