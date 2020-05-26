@@ -43,7 +43,7 @@ Do not, I repeat **_DO NOT_**, remove any 'none' values in any of the config fil
 
 # Future
 
-PERSMAN will receive regular updates, both on the API and Angular Application. I am not planning to abandon it. However I will not promise any features as I develop this in my own free time. Although, With that being said, feel free to request features and suggestions on my Discord, discord.persman.online.
+PERSMAN will receive regular updates, both on the API and Angular Application. I am not planning to abandon it. However I will not promise any features as I develop this in my own free time. Although, With that being said, feel free to request features and suggestions on my [Discord](discord.persman.online).
 
 ### Planned Features
 * Revamped Certification, Award, and Service Record components with images
@@ -53,4 +53,4 @@ PERSMAN will receive regular updates, both on the API and Angular Application. I
 
 # Support
 
-I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. If you want a suggestion on services to deploy your app, I recommend Amazon Lightsail. However, if you encounter real errors of my own fault, feel free to complain on my Discord, discord.persman.online.
+I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. If you want a suggestion on services to deploy your app, I recommend Amazon Lightsail. However, if you encounter real errors of my own fault, feel free to notify me on my [Discord](discord.persman.online).
