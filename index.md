@@ -45,7 +45,7 @@ PERSMAN will receive regular updates, both on the API and Angular Application. I
 * Revamped Certification, Award, and Service Record components with images
 * Image support for events
 * Beautified UI (make it less boring)
-* Theming System
+* Theming System (especially a Dark theme)
 
 # Support
 
