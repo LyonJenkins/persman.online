@@ -28,7 +28,8 @@ There are two components to PERSMAN. Both are required to run the application. Y
 5. Add your database login URL to the "dbURL" field./
 6. Add a custom string to the "secret" field.
 7. Add your unit or website or whatever name to "websiteName".
-8. Run the application.
+8. Add your default administrator email in the "adminAccountEmail" field.
+9. Run the application.
 
 ### Angular Setup
 1. In the assets/config.json file, change "API_URL" to your Express API application URL.
