@@ -18,7 +18,7 @@ layout: default
 
 # Setup
 
-There are two components to PERSMAN. Both are required to run the application. You will need to take the following steps to have a running application. You will need to find a hosting service for both the Angular Application, the Express API, and for the MongoDB server. This is not an extensive tutorial, and assumes you have basic knowledge of web hosting and you know the power of Google.
+There are two components to PERSMAN. Both are required to run the application. You will need to take the following steps to have a running application. You will need to find a hosting service for both the Angular Application, the Express API, and for the MongoDB server. This is not an extensive tutorial, and assumes you have knowledge of web hosting and you know the power of Google.
 
 ### Express Setup
 1. In the Express API, rename _example-config.json_ to _config.json_.
@@ -34,3 +34,18 @@ There are two components to PERSMAN. Both are required to run the application. Y
 1. In the assets/config.json file, change "API_URL" to your Express API application URL.
 2. Add your unit or website or whatever name to "websiteName".
 3. Run the application.
+
+# Future
+
+PERSMAN will receive regular updates, both on the API and Angular Application. I am not planning to abandon it. However I will not promise any features as I develop this in my own free time. Although, With that being said, feel free to request features and suggestions on my Discord, discord.persman.online.
+
+### Planned Features
+* Revamped Certification, Award, and Service Record components with images
+* Image support for events
+* Beautified UI (make it less boring)
+* Theming System
+* 
+
+# Support
+
+I will not hand hold anyone wanting to setup my application. The steps are relatively straight forward. If you want a suggestion on services to deploy your app, I recommend Amazon Lightsail. However, if you encounter real errors of my own fault, feel free to complain on my Discord, discord.persman.online.
