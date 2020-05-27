@@ -60,4 +60,4 @@ I will not hand hold anyone wanting to setup my application. The steps are relat
 
 
 ### Known Bugs
-* Can no longer reorder items are reordering many times in Personnel Files or Application Form
+* Can't reorder items after reordering sections many times in Personnel Files or Application Form
