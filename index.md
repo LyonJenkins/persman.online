@@ -38,7 +38,7 @@ There are two components to PERSMAN. Both are required to run the application. Y
 2. Add your unit or website or whatever name to "websiteName".
 3. Set your desired units in "units".
 4. Set your desired home page text in "homeText".
-5. Replace _favicon.ico_ with your own image, with the same exact file name (including type).
+5. Replace _assets/favicon.ico_ with your own image, with the same exact file name (including type).
 6. Run the application.
 
 # Important Notes
